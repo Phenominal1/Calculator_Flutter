@@ -60,14 +60,14 @@ class _CalculatorAppState extends State<CalculatorApp> {
                 children: [
                   Text(
                     input,
-                    style: TextStyle(fontSize: 48, color: Colors.white),
+                    style: TextStyle(fontSize: 38, color: Colors.white),
                   ),
                   SizedBox(
                     height: 40,
                   ),
                   Text(
                     output,
-                    style: TextStyle(fontSize: 30, color: Colors.white),
+                    style: TextStyle(fontSize: 50, color: Colors.white),
                   ),
                   SizedBox(
                     height: 40,
@@ -146,7 +146,7 @@ class _CalculatorAppState extends State<CalculatorApp> {
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
             shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                RoundedRectangleBorder(borderRadius: BorderRadius.circular(40)),
             padding: const EdgeInsets.all(18),
             backgroundColor: buttonBgColor),
         onPressed: () => onButtonClick(text),
